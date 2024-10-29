@@ -161,8 +161,12 @@ const Footer = () => {
         </div>
       </footer>
       <div className=" container mx-auto  flex flex-col md:flex-row justify-between items-center">
-        <div className="text-xl font-semibold hidden md:flex">
+        {/* <div className="text-xl font-semibold hidden md:flex">
           CAMPUS<span className="text-blue-500 font-bold">BUZZ</span>
+        </div> */}
+        <div className="font-semibold text-xl">
+          <span className="text-orange-500">JSSSTU'S</span> CAMPUS
+          <span className="text-blue-500">BUZZ</span>
         </div>
         <div className="text-gray-400 text-sm hidden md:flex">
           <p>&copy; JSS science And technology university</p>

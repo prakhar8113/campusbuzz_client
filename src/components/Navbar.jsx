@@ -38,7 +38,7 @@ function Navbar() {
             CAMPUS<span className="text-blue-500">BUZZ</span>
           </div> */}
           <div className="font-semibold text-xl">
-            <span className="text-orange-500">JSSSTU</span> CAMPUS
+            <span className="text-orange-500">JSSSTU'S</span> CAMPUS
             <span className="text-blue-500">BUZZ</span>
           </div>
 
