@@ -34,9 +34,14 @@ function Navbar() {
     <>
       <nav className=" shadow-lg px-4 py-2">
         <div className="flex items-center justify-between container mx-auto">
-          <div className="font-semibold text-xl">
+          {/* <div className="font-semibold text-xl">
             CAMPUS<span className="text-blue-500">BUZZ</span>
+          </div> */}
+          <div className="font-semibold text-xl">
+            <span className="text-orange-500">JSSSTU</span> CAMPUS
+            <span className="text-blue-500">BUZZ</span>
           </div>
+
           {/* Desktop */}
           <div className=" mx-6">
             <ul className="hidden md:flex space-x-6">
