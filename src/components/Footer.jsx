@@ -8,10 +8,7 @@ const Footer = () => {
   return (
     <>
       <footer className="border py-10">
-        {/* <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-         */}
-        {/* <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> */}
-        <div className="container mx-auto flex flex-wrap justify-around gap-8">
+        <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className=" text-center md:text-start">
             <h2 className="text-lg font-semibold mb-4">Campus Clubs</h2>
             <ul className="space-y-2">
@@ -122,6 +119,9 @@ const Footer = () => {
               </li>
             </ul>
           </div> */}
+          <div className="text-center md:text-start">
+            {/* Intentionally left blank */}
+          </div>
           <div className=" text-center md:text-start">
             <h2 className="text-lg font-semibold mb-4">University</h2>
             <ul className="space-y-2">
@@ -172,7 +172,7 @@ const Footer = () => {
           <span className="text-blue-500">BUZZ</span>
         </div>
         <div className="text-gray-400 text-sm hidden md:flex">
-          <p>&copy; JSS science And technology university</p>
+          <p>&copy; JSS Science And Technology University</p>
         </div>
         <div className="mt-4 md:mt-0 flex space-x-4">
           <a href="https://github.com/prakhar8113">
